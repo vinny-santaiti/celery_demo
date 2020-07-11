@@ -46,6 +46,7 @@ Output:
 ```
 ### Main
 ```
+source celery_demo/.env/bin/activate
 (.env) $ python -m celery_demo.main
 Task finished? False
 Task result: None
