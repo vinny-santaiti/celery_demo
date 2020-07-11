@@ -4,10 +4,11 @@ Requirements:
 * rabbitmq
 ```
 git clone https://github.com/vinny-santaiti/celery_demo.git
-python3 -m venv celery_demo/.env
-source celery_demo/.env/bin/activate
-pip install -r celery_demo/requirements.txt
-pip freeze
+cd celery_demo
+python3 -m venv .env
+source .env/bin/activate
+(.env) $ pip install -r celery_demo/requirements.txt
+(.env) $ pip freeze
 ```
 Run each command in one level up from project folder
 in seperate terminal tabs:
@@ -17,7 +18,7 @@ in seperate terminal tabs:
 
 ```
 source celery_demo/.env/bin/activate
-(.env) $ celery -A . worker --loglevel=info
+(.env) $ celery -A celery_demo.celery_app worker --loglevel=info
 ```
 Output:
 ```
