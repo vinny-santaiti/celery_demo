@@ -80,4 +80,4 @@ Output:
 ```
 Open in web browser: localhost:5555
 ![flower](flower.png)
-![demo](demo.png)
+![demo](demo.gif)
