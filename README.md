@@ -4,8 +4,8 @@ Requirements:
 * rabbitmq
 ```
 git clone https://github.com/vinny-santaiti/celery_demo.git
-python3 -m venv .env
-source .env/bin/activate
+python3 -m venv celery_demo/.env
+source celery_demo/.env/bin/activate
 pip install -r celery_demo/requirements.txt
 pip freeze
 ```
