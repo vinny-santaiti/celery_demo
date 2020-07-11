@@ -1,4 +1,4 @@
-##Celery Demo
+## Celery Demo
 Requirements:
 * python
 * rabbitmq
@@ -44,7 +44,7 @@ Output:
 [2020-07-11 08:26:09,015: WARNING/ForkPoolWorker-8] task finished
 [2020-07-11 08:26:09,036: INFO/ForkPoolWorker-8] Task celery_demo.tasks.add[bc13dd1d-083f-4991-b8f0-d33b1ac860c7] succeeded in 3.0233783579999995s: 3
 ```
-###Main
+### Main
 ```
 (.env) $ python -m celery_demo.main
 Task finished? False
@@ -52,7 +52,7 @@ Task result: None
 Task finished? True
 Task result: 3
 ```
-###Flower
+### Flower
 ```
 source celery_demo/.env/bin/activate
 (.env) $ celery -A celery_demo.celery_app flower
