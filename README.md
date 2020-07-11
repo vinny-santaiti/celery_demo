@@ -3,6 +3,7 @@ Requirements:
 * python
 * rabbitmq
 ```
+git clone https://github.com/vinny-santaiti/celery_demo.git
 python3 -m venv .env
 source .env/bin/activate
 pip install -r celery_demo/requirements.txt
