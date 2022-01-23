@@ -1,6 +1,6 @@
 ## Celery Demo
 Requirements:
-* python
+* python >=3.7
 * rabbitmq
 ```
 git clone https://github.com/vinny-santaiti/celery_demo.git
